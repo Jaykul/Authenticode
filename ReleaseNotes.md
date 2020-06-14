@@ -1,5 +1,9 @@
 ## Release Notes
 
+#### 2.7 - Darren Robinson http://darrenjrobinson.com 15 June 2020
+    Updated to not conflict with PowerShell Get-AuthenticodeCertificate and Get-AuthenticodeCertificate cmdlets
+    Tested and validated on PowerShell 7.1
+
 #### 2.6 
     Updated to work with PowerShell 5 (PowerShellGet) manifests without breaking things
     Made the Set-AuthenticodeSignature Path parameter support folders (recursively signs all PowerShell code and dll/exe files)
