@@ -1,6 +1,10 @@
 ## Release Notes
 
-#### 2.6 
+#### 2.6.1-beta
+    This version. Split for use with ModuleBuilder's Build-Module, and updated the doc comments a bit.
+    I don't currently _have_ a valid code-signing certificate, so I'm not adding tests yet
+
+#### 2.6
     Updated to work with PowerShell 5 (PowerShellGet) manifests without breaking things
     Made the Set-AuthenticodeSignature Path parameter support folders (recursively signs all PowerShell code and dll/exe files)
 
